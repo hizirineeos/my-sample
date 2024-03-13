@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+ <head>
+ <meta charset="utf-8">
+     <meta name="viewport" content="width=device-width">
+ <title>デモサイト_聖音</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <script src="js/jquery.js"></script>
+    <script src="js/common.js"></script> 
+  </head>
+
+ <!----- 以下サイト内容 ----->
+ <body>
+  <header>
+    <div class="container">
+      <div class="row">
+        <div class="col-12 header__wrapper">
+          <h1><a href="index.html">Site name!</a></h1>
+          <!-- メニューボタン -->
+          <p id="menubtn">&#9776;</p>
+          <!-- ナビゲーションメニュー -->
+          <ul id="navmenu">
+            <li><a href="#News">News</a></li>
+            <li><a href="#About">About</a></li>
+            <li><a href="#Goods">Goods</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </header>
+  <div class="container">
+      <img src="img/TOPgd.png"/>
+      <div class="box fadeUp">
+        <img src="img/TOPcara.png" alt="" class="absolute cara" />
+      </div>
+      <div class="absolute tag_box">背景パターンに背景画像を重ねています<br>
+        更にその上にキャラクター画像を重ねています。<br>
+        キャラ画像は読み込み時フェードイン</div>
+      <div class="absolute date_box">2024/02/05<br>なんかこう開催日的な。二個テキストを別の位置に配置する練習です</div>
+  </div>
+</div>
+
+<div class="container text-center">
+  <div class="row">
+    <div class="col-md-7 margin-top">
+      <h2 id="News">News</h2>
+      <dl class="update">
+        <dt>2024.1.30</dt>
+        <p>更新履歴やおしらせを書く</p>
+        <dt>2023.1.2</dt>
+        <p>改行<br>出来ればスクロールバー表示に変更したい</p>
+        <dt>2022.03.08</dt>
+        <p>勉強しなきゃ…</p>
+      </dl>
+    </div>
+    
+    <div class="col-12 margin-top">
+      <h2 id="About">About</h2>
+      <div class="container">
+        <p>ここに概要を書きます</p>
+        <p>〇〇とは〇〇によるファンメイドライブです、等～～～</p>
+      </div>
+    </div>
+
+      
+      <div class="container bg_haikei">
+        <h2 id="Goods">Goods</h2>
+        <div class="grid-container">
+            <!-- 画像を表示 -->
+            <div class="grid-item">
+                <a href="./img/goods.jpg" target="_blank">
+                    <img src="./img/goods.jpg" alt="Goods Image">
+                </a>
+            </div>
+            <div class="grid-item">
+                <a href="./img/goods.jpg" target="_blank">
+                    <img src="./img/goods.jpg" alt="Goods Image">
+                </a>
+            </div>
+            <div class="grid-item">
+              <a href="./img/goods.jpg" target="_blank">
+                  <img src="./img/goods.jpg" alt="Goods Image">
+              </a>
+          </div>
+          <div class="grid-item">
+            <a href="./img/goods.jpg" target="_blank">
+                <img src="./img/goods.jpg" alt="Goods Image">
+            </a>
+        </div>
+        <div class="grid-item">
+          <a href="./img/goods.jpg" target="_blank">
+              <img src="./img/goods.jpg" alt="Goods Image">
+          </a>
+      </div>
+      <div class="grid-item">
+        <a href="./img/goods.jpg" target="_blank">
+            <img src="./img/goods.jpg" alt="Goods Image">
+        </a>
+    </div>
+    <br><br>
+     <!-- 3×3想定 -->
+    </div></div>
+    <footer>@聖音<br>
+    参考:do@ガタガタ様<br>
+  いきなりはじめるPHP<br>
+  動くWenデザインアイディア帳<br>
+  マジカルミライ公式サイト
+</footer>
+  </body>
+
+</html>
